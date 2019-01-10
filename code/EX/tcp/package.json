@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "tcpsocket",
+    "description": "tcpsocket",
+    "version": "1",
+    "app": {
+        "background": {
+            "scripts": [
+                "js/lib/range.js",
+                "js/lib/libChromeAppSocket.js",
+                "js/background.js"
+            ]
+        }
+    },
+    "sockets": {
+        "tcp": {
+            "connect": ["0.0.0.0:9997"]
+        }
+    },
+    "icons": {
+        "128": "img/http_server.png"
+    },
+    "permissions": [
+        "unlimitedStorage"
+    ]
+}

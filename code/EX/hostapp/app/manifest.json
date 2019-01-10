@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "网易云音乐",
+    "description": "网易云音乐",
+    "version": "1",
+    "app": {
+        "urls": [
+            "*://music.163.com/"
+        ],
+        "launch": {
+            "web_url": "http://music.163.com/"
+        }
+    },
+    "icons": {
+        "128": "img/icon128.png"
+    },
+    "permissions": [
+        "unlimitedStorage",
+        "notifications"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "udpSocket",
+    "description": "udpSocket",
+    "version": "1",
+    "app": {
+        "background": {
+            "scripts": [
+                "js/lib/range.js",
+                "js/lib/libStr.js",
+                "js/lib/libChromeAppSocket.js",
+                "js/background.js"
+            ]
+        }
+    },
+    "sockets": {
+        "udp": {
+            "send": ["0.0.0.0:54321"],
+            "bind": ":*"
+        }
+    },
+    "icons": {
+        "128": "img/icon128.png"
+    },
+    "permissions": [
+        "unlimitedStorage"
+    ]
+}

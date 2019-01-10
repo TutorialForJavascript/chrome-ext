@@ -1,0 +1,23 @@
+{
+  "name": "Performance_Monitor",
+  "version": "1.0.0",
+  "description": "Performance_Monitor",
+  "main": "index.js",
+  "scripts": {
+    "cplib": "cp node_modules/jquery/dist/jquery.min.js app/js/jquery.js",
+    "tsc": "node_modules/.bin/tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hsz",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/chart.js": "0.0.12",
+    "typescript": "^2.1.5"
+  },
+  "dependencies": {
+    "@types/chrome": "0.0.38",
+    "@types/jquery": "^2.0.39",
+    "chart.js": "^2.5.0",
+    "jquery": "^3.1.1"
+  }
+}

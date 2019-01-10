@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "allowJs":true,
+        "module": "ES6",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "./app/js",
+        "sourceMap": true,
+        "types": ["chrome"]
+    },
+    "include": [
+        "./src/ts/*"
+    ]
+}

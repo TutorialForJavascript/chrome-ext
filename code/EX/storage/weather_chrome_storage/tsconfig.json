@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "allowJs":true,
+        "module": "ES6",
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "./app/js",
+        "sourceMap": true,
+        "types": [
+        "chrome","jquery","websql"
+    ]
+    },
+    "include": [
+        "./src/ts/*"
+    ]
+}

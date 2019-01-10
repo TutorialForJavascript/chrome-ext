@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "window_hide",
+    "description": "window_hide",
+    "version": "1",
+    "app": {
+        "background": {
+            "scripts": ["js/background.js"]
+        }
+    },
+    "icons": {
+        "128": "img/icon128.png"
+    },
+    "permissions": [
+        "unlimitedStorage"
+    ]
+}

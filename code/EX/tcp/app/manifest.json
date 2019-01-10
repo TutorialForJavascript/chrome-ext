@@ -1,0 +1,19 @@
+{
+    "app": {
+        "background": {
+            "scripts": ["js/lib/range.js", "js/lib/libChromeAppSocket.js", "js/background.js"]
+        }
+    },
+    "manifest_version": 2,
+    "name": "tcpsocket",
+    "version": "1.0",
+    "description": "tcpsocket",
+    "icons": {
+        "128": "img/http_server.png"
+    },
+    "sockets": {
+        "tcp": {
+            "connect": "*"
+        }
+    }
+}
